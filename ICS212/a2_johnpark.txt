@@ -1,0 +1,27 @@
+   John Park
+   ICS 212 Assignment #2
+   01/14/2022
+
+    1  echo $0
+    2  ls .la
+    3  ls -la
+    4  *.c
+    5  *.b
+    6  *.c
+    7  *c
+    8  ls *.c
+    9  ls *c
+   10  ls *v
+   11  ls e
+   12  ls *e
+   13  ls *.bashrc
+   14  ls *.c
+   15  ls *c
+   16  ls ?.c
+   17  ls ?c
+   18  cd .
+   19  dir
+   20  mv bashrc .bashrc
+   21  dir
+   22  ls -la
+   23  history > a2_johnpark.txt

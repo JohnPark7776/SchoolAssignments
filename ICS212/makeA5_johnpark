@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS=-I.
+
+a5_johnpark: a5_johnpark.o getdouble.o
+	gcc -o a5_johnpark a5_johnpark.o getdouble.o 
+
+a5_johnpark.o: a5_johnpark.c getdouble.h
+	gcc -c a5_johnpark.c
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c
+
+

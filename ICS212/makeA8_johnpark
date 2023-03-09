@@ -1,0 +1,7 @@
+a8_johnpark: a8_johnpark.o
+		gcc -o a8_johnpark a8_johnpark.o
+
+a8_johnpark.o: a8_johnpark.c
+		gcc -c a8_johnpark.c
+
+
